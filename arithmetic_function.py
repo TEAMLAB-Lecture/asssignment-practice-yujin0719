@@ -1,7 +1,7 @@
 def addition(a, b):
     # '''
     # Input:
-   5 #   -a: 실수 값 (Integer or float)
+    #   -a: 실수 값 (Integer or float)
     #   -b: 실수 값 (Integer or float)
     # Output:
     #   -두 값의 합
@@ -14,7 +14,7 @@ def addition(a, b):
     # pass
     # ===Modify codes below=============
 
-    result = None
+    result = a + b
 
     # ==================================
 
@@ -37,7 +37,7 @@ def minus(a, b):
     # pass
     # ===Modify codes below=============
 
-    result = None
+    result = a - b
 
     # ==================================
 
@@ -60,7 +60,7 @@ def multiplication(a, b):
     # pass
     # ===Modify codes below=============
 
-    result = None
+    result = a * b
 
     # ==================================
 
@@ -83,7 +83,7 @@ def division(a, b):
     # pass
     # ===Modify codes below=============
 
-    result = None
+    result = a / b
 
     # ==================================
 
@@ -101,13 +101,13 @@ def main():
     print (minus(3,5)) # Expected Result: -2
     print (minus(10,5) == 5) # Expected Result: True
     print (minus(10,15) == 5) # Expected Result: False
-    print ("Addition Test Closed \n")
+    print ("Minus Test Closed \n")
 
     print ("Multiplication Test")
     print (multiplication(3,5)) # Expected Result: 15
     print (multiplication(10,5) == 50) # Expected Result: True
     print (multiplication(10,-3) == 20) # Expected Result: False
-    print ("Addition Test Closed \n")
+    print ("Multiplication Test Closed \n")
 
     print ("division Test")
     print (division(5,5)) # Expected Result: 1
